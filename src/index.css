@@ -2,26 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow:hidden;
 }
 
 body {
   display: flex;
   align-items:center;
   justify-content: center;
-  height: 100vh;
   background-color: #EEEEEE;
   font-family: 'Inter', sans-serif;
-  overflow:hidden;
 }
 
 .box {
   width: 20.875em;
   min-height: 39.75em;
   border-radius: 0.625em;
+  margin-top: 1em;
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  margin-bottom: 1em;
 }
 
 
@@ -32,5 +31,6 @@ body {
 @media (min-width: 27em) {
   .box {
     width: 26.875em;
+    margin-top: 8em;
   }
 }
