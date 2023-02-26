@@ -1,0 +1,34 @@
+
+.input {
+    width: 17.1875em;
+    background-color:#EBEFF2;
+    display: flex;
+    flex-direction: row;
+    gap: 0.625em;
+    padding-left: 3em;
+    border: none;
+    outline: none;
+}
+
+.submit {
+    background-color: #20EEB0;
+    width:5.5em;
+    transition: 0.4s;
+}
+
+.reqBox {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #20EEB0;
+    background-image: url("../images/V.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    transform: translate(1.1875em,0.875em);
+}
+
+.submit:hover {
+    opacity: 40%;
+    transition: 0.4s;
+}

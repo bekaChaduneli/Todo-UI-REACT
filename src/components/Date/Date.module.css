@@ -1,0 +1,17 @@
+
+
+.time {
+    font-size: 2em;
+    font-family: 'Russo One', sans-serif;
+    transform: translate(150px, 100px);
+    color: #fff;
+    position: absolute;
+    
+}
+
+@media (min-width:27em) {
+    .time {
+        font-size: 3em;
+        transform: translate(150px, 130px);
+    }
+}

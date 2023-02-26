@@ -1,0 +1,26 @@
+.circle {
+    background-color: #fff;
+    border: 2px solid #20EEB0;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.active {
+    background-color: #20EEB0;
+    border: 2px solid #20EEB0;
+    border-radius: 50%;
+    background-image: url('../images/V.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.4s;
+}
+
+.date {
+    font-size: 0.875em;
+    color: #888;
+}
+
+.delete:hover {
+    transition: 0.3s;
+    opacity: 0;
+}
