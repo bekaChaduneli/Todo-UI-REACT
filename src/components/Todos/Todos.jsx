@@ -25,9 +25,9 @@ function Todos({ todos, todo, todoText, del, setTodos }) {
         number={todo.id}
       >
         <div className="flex flex-col">
-          <h1 className="ml-1 text-lg">{todoText}</h1>
+          <h1 className="ml-1 text-lg max-w-xs">{todoText}</h1>
           <h1 className={`${style.date} pl-1 text-sm text-gray-400`}>
-            Today at {todo.date}
+            Today at {todo.date} {todo.time}
           </h1>
         </div>
         <div className="flex gap-4">
