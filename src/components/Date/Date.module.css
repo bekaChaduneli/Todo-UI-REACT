@@ -3,15 +3,52 @@
 .time {
     font-size: 2em;
     font-family: 'Russo One', sans-serif;
-    transform: translate(150px, 100px);
     color: #fff;
     position: absolute;
+    transform: translate(200px, -45px);
     
 }
 
+.pm {
+    font-size: 2em;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    position: absolute;
+    transform: translate(270px, -45px);
+}
+
+.weekday {
+    font-size: 1.125;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    position: absolute;
+    transform: translate(267px, -57px);
+}
+
+.day {
+    font-size: 0.925em;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    position: absolute;
+    transform: translate(303px, -55px);
+}
 @media (min-width:27em) {
     .time {
         font-size: 3em;
-        transform: translate(150px, 130px);
+        transform: translate(230px, -65px);
+        
+    }
+
+    .pm {
+        font-size: 3em;
+        transform: translate(340px, -65px);
+    }
+
+    .weekday {
+        transform: translate(358px, -70px);
+    }
+    
+    .day {
+        transform: translate(400px, -69px);
     }
 }
